@@ -21,6 +21,10 @@ p {
     max-width: 40em;
 }
 
+.mbs-4 {
+    margin-block-start: 5rem;
+}
+
 .mb-5 {
     margin-block: 8rem;
 }
