@@ -1,5 +1,4 @@
-'use strict'
-import BaseShape from "./baseShape.mjs";
+import BaseShape from "./baseShape.js";
 
 export default class Stripe extends BaseShape {
     get angle() {
