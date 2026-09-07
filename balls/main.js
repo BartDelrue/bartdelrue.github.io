@@ -1,7 +1,7 @@
-import Ball from "./ball.mjs";
-import hsl2rgb from "./hsl2rgb.mjs";
-import {calcRatio} from "./contrast.mjs";
-import Stripe from "./stripe.mjs";
+import Ball from "./ball.js";
+import hsl2rgb from "./hsl2rgb.js";
+import {calcRatio} from "./contrast.js";
+import Stripe from "./stripe.js";
 
 
 const controls = document.querySelector('#controls');
