@@ -2,19 +2,19 @@
 <rss version="2.0">
     <channel>
         <title>Musings of Bart Delrue</title>
-        <link>https://bartdelrue.github.io/blog</link>
+        <link>https://ctrlaltdelrue.be/blog</link>
         <description>Musings, ramblings and other nonsense by Bart Delrue.</description>
         <language>en-us</language>
         <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
         <image>
-            <url>https://bartdelrue.github.io/apple-touch-icon.png</url>
+            <url>https://ctrlaltdelrue.be/apple-touch-icon.png</url>
             <title>Musings of Bart Delrue</title>
-            <link>https://bartdelrue.github.io/blog</link>
+            <link>https://ctrlaltdelrue.be/blog</link>
         </image>
 
         <item>
             <title>Builders and Dreamers</title>
-            <link>https://bartdelrue.github.io/blog#builders-and-dreamers</link>
+            <link>https://ctrlaltdelrue.be/blog#builders-and-dreamers</link>
             <description><![CDATA[
         This summer, I'll be spending five days in the woods near Berlin at <a href="https://dwebcamp.org/">DWebCamp</a>
         — a gathering for builders and dreamers of a better web. July 8–12, Alte Hölle.
@@ -27,11 +27,11 @@
 
         <item>
             <title>Presentation: RSS</title>
-            <link>https://bartdelrue.github.io/talks/RSS/</link>
+            <link>https://ctrlaltdelrue.be/talks/RSS/</link>
             <description><![CDATA[
               <p>I gave a talk on RSS for the web topics course at Odisee:
-              <a href="https://bartdelrue.github.io/talks/RSS/">Presentation here</a>.</p>
-              <iframe src="https://bartdelrue.github.io/talks/RSS/" title="RSS" width="800" height="500"></iframe>
+              <a href="https://ctrlaltdelrue.be/talks/RSS/">Presentation here</a>.</p>
+              <iframe src="https://ctrlaltdelrue.be/talks/RSS/" title="RSS" width="800" height="500"></iframe>
     ]]></description>
             <pubDate>Tue, 12 Feb 2025 00:00:00 +0000</pubDate>
             <guid>https://bartdelrue.github.io/talks/RSS/</guid>
@@ -39,11 +39,11 @@
 
         <item>
             <title>Presentation: Webmention</title>
-            <link>https://bartdelrue.github.io/talks/webmention/</link>
+            <link>https://ctrlaltdelrue.be/talks/webmention/</link>
             <description><![CDATA[
               <p>I gave a talk on the webmention specification for the web topics course at Odisee:
-              <a href="https://bartdelrue.github.io/talks/webmention/">Presentation here</a>.</p>
-              <iframe src="https://bartdelrue.github.io/talks/webmention/" title="webmention" width="800" height="500"></iframe>
+              <a href="https://ctrlaltdelrue.be/talks/webmention/">Presentation here</a>.</p>
+              <iframe src="https://ctrlaltdelrue.be/talks/webmention/" title="webmention" width="800" height="500"></iframe>
     ]]></description>
             <pubDate>Tue, 12 Feb 2025 00:00:00 +0000</pubDate>
             <guid>https://bartdelrue.github.io/talks/webmention/</guid>
@@ -51,7 +51,7 @@
 
         <item>
             <title>A Small Shout-Out to My Students</title>
-            <link>https://bartdelrue.github.io/blog#small-shout-out-to-my-students</link>
+            <link>https://ctrlaltdelrue.be/blog#small-shout-out-to-my-students</link>
             <description><![CDATA[
         This semester, a group of students in the <strong>web topics advanced</strong> elective explored
         <em>linked data</em>, <em>federated web</em>, <em>ActivityPub</em>, <em>Webmention</em>, and <em>Solid</em>.
@@ -68,7 +68,7 @@
 
         <item>
             <title>More to Come</title>
-            <link>https://bartdelrue.github.io/blog#more-to-come</link>
+            <link>https://ctrlaltdelrue.be/blog#more-to-come</link>
             <description><![CDATA[
         As is tradition in January, I’ve curated a small list of good intentions for 2025.
         The basic fit will probably be saturated with other well-intentioned people... so I’ll avoid getting in their way.

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://bartdelrue.github.io/</loc>
+        <loc>https://ctrlaltdelrue.be/</loc>
         <priority>1</priority>
     </url>
     <url>
-        <loc>https://bartdelrue.github.io/contrast</loc>
+        <loc>https://ctrlaltdelrue.be/contrast</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://bartdelrue.github.io/balls</loc>
+        <loc>https://ctrlaltdelrue.be/balls</loc>
         <priority>0.9</priority>
     </url>
     <url>
@@ -19,33 +19,5 @@
     <url>
         <loc>https://bartdelrue.github.io/gentselieven</loc>
         <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bartdelrue.github.io/tutorial/demos/hfdstk4.html</loc>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bartdelrue.github.io/tutorial/demos/hfdstk5.html</loc>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bartdelrue.github.io/tutorial/demos/hfdstk6.html</loc>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bartdelrue.github.io/tutorial/demos/hfdstk7.html</loc>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bartdelrue.github.io/tutorial/demos/hfdstk8.html</loc>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bartdelrue.github.io/tutorial/demos/hfdstk9.html</loc>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bartdelrue.github.io/tutorial/demos/hfdstk10.html</loc>
-        <priority>0.8</priority>
     </url>
 </urlset>
