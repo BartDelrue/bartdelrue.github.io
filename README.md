@@ -6,13 +6,13 @@ Personal site and blog of Bart Delrue, built with [Nuxt 4](https://nuxt.com) and
 ## Running locally
 
 ```bash
-npm install
-npm run dev       # http://localhost:3000
+pnpm install
+pnpm dev             # http://localhost:3000
 ```
 
 ```bash
-npm run generate  # static build into .output/public
-npx serve .output/public
+pnpm generate   # static build into .output/public
+pnpm dlx serve .output/public
 ```
 
 Requires Node 22.5 or newer — the content database uses Node's built-in `node:sqlite`, so there is
@@ -73,7 +73,7 @@ The `balls` one-pager is plain HTML/CSS/JS and is served untouched from `public/
 
 ## Deployment
 
-`.github/workflows/deploy.yml` runs `npm run generate` on every push to `master` and publishes
+`.github/workflows/deploy.yml` runs `pnpm generate` on every push to `master` and publishes
 `.output/public` to GitHub Pages.
 
 This requires **Settings → Pages → Build and deployment → Source: GitHub Actions** on the
