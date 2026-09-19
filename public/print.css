@@ -1,5 +1,5 @@
 
-:root {
+:root, :root.theme-blog {
     --bg: white;
     --fg: black;
     font-size: 10pt;
