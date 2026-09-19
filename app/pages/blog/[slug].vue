@@ -108,7 +108,7 @@ article {
   margin-inline: auto;
   max-inline-size: 70ch;
 
-  @media (min-width: 60em) {
+A  @media (min-width: 90em) {
     font-size: 1.6em;
   }
 }
