@@ -107,13 +107,17 @@ const canonicalUrl = computed(() => new URL(route.path, siteUrl).href)
 article {
   margin-inline: auto;
   max-inline-size: 70ch;
-  font-size: 1.6em;
+
+  @media (min-width: 60em) {
+    font-size: 1.6em;
+  }
 }
 
 .prose {
   &:deep(h3) {
     margin-block-start: 3em;
   }
+
   &:deep(:is(h3, h4) + p) {
     margin-block-end: 1em;
   }
