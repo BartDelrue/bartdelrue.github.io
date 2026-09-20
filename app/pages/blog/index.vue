@@ -1,10 +1,10 @@
 <script setup lang="ts">
-const { data: posts } = await useAsyncData('blog-index', () =>
-  queryCollection('blog')
-    .where('draft', '=', false)
-    .order('date', 'DESC')
-    .select('path', 'title', 'description', 'date', 'tags')
-    .all(),
+const {data: posts} = await useAsyncData('blog-index', () =>
+    queryCollection('blog')
+        .where('draft', '=', false)
+        .order('date', 'DESC')
+        .select('path', 'title', 'description', 'date', 'tags')
+        .all(),
 )
 
 useSeo({
@@ -14,7 +14,7 @@ useSeo({
 })
 
 useHead({
-  htmlAttrs: { class: 'theme-blog' },
+  htmlAttrs: {class: 'theme-blog'},
   script: [
     {
       type: 'application/ld+json',
@@ -23,14 +23,14 @@ useHead({
         '@type': 'Blog',
         'name': 'Musings of Bart Delrue',
         'url': 'https://ctrlaltdelrue.be/blog',
-        'author': { '@type': 'Person', 'name': 'Bart Delrue' },
+        'author': {'@type': 'Person', 'name': 'Bart Delrue'},
       }),
     },
   ],
 })
 
 const navLinks = [
-  { href: '/', label: 'About me', away: true },
+  {href: '/', label: 'About me', away: true},
 ]
 
 onMounted(() => {
@@ -38,30 +38,32 @@ onMounted(() => {
   if (!slug) return
 
   const match = posts.value?.find(post => post.path === `/blog/${slug}`)
-  if (match) navigateTo(match.path, { replace: true })
+  if (match) navigateTo(match.path, {replace: true})
 })
 </script>
 
 <template>
   <div>
     <SiteHeader
-      tagline="My musings and ramblings"
-      quote="&quot;No good at life, but very funny sometimes with the commentary.&quot;"
-      quote-source="Kurt Vonnegut"
+        tagline="My musings and ramblings"
+        quote="&quot;No good at life, but very funny sometimes with the commentary.&quot;"
+        quote-source="Kurt Vonnegut"
     />
 
-    <SiteNav :links="navLinks" />
+    <SiteNav :links="navLinks"/>
 
-    <main class="container">
+    <main id="main" class="container">
       <h2 class="visually-hidden">Posts</h2>
 
       <ul class="post-list">
         <li v-for="post in posts" :key="post.path">
           <article>
             <hgroup>
-              <h3><NuxtLink :to="post.path">{{ post.title }}</NuxtLink></h3>
+              <h3>
+                <NuxtLink :to="{path: post.path, hash: '#main' }">{{ post.title }}</NuxtLink>
+              </h3>
               <p class="post-meta">
-                <PostDate :date="post.date" />
+                <PostDate :date="post.date"/>
               </p>
             </hgroup>
             <p>{{ post.description }}</p>
@@ -69,7 +71,7 @@ onMounted(() => {
               <li v-for="tag in post.tags" :key="tag">{{ tag }}</li>
             </ul>
             <p>
-              <NuxtLink class="read-more" :to="post.path">
+              <NuxtLink class="read-more" :to="{path: post.path, hash: '#main'}">
                 Read <span class="visually-hidden">{{ post.title }}</span> &rarr;
               </NuxtLink>
             </p>

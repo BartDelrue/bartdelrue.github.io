@@ -43,7 +43,7 @@ const navLinks = [
     <SiteNav :links="navLinks" />
 
     <div class="container-wide">
-      <main class="container">
+      <main id="main" class="container">
         <section id="personal" class="mb-5">
           <article class="mb-5">
             <hgroup>

@@ -73,7 +73,7 @@ const canonicalUrl = computed(() => new URL(route.path, siteUrl).href)
 
     <SiteNav :links="navLinks"/>
 
-    <main class="container">
+    <main id="main" class="container">
       <article class="h-entry pb-3">
         <hgroup>
           <h2 class="p-name">{{ post.title }}</h2>

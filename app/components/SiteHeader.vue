@@ -9,6 +9,7 @@ defineProps<{
 
 <template>
   <header class="container">
+    <a href="#main" class="skiplink">Skip to main</a>
     <div class="column">
       <hgroup>
         <h1 class="text-xs-center"><em>Bart</em> Delrue</h1>
@@ -26,6 +27,15 @@ defineProps<{
 </template>
 
 <style scoped>
+
+.skiplink {
+  position: absolute;
+  top: -100%;
+
+  &:focus-visible {
+    top: 0;
+  }
+}
 header {
   display: flex;
   flex-direction: column;
