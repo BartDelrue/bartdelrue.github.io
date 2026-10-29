@@ -209,7 +209,25 @@ const navLinks = [
                     </p>
                     <p><a href="https://bartdelrue.github.io/gentselieven">Gentse lieven</a></p>
                   </li>
-
+                  <li>
+                    <h3>Boekmap</h3>
+                    <p>
+                      One last project from my old school days. It uses the API of Flemish libraries to help you discover books set in specific cities, regions, or countries.
+                    </p>
+                    <p>
+                      The idea? <strong>Travel without leaving home.</strong> Explore places you can't visit in person through the pages of fiction.
+                    </p>
+                    <p>
+                      It dates back to november 2015. So yes, it's old! It must have been in the second year of my bachelors.
+                      In 2026 I asked claude to revive it.<br>
+                      The old php is still in the repo as 'legacy'. Was it well written? No.<br>
+                      It's kept for nostalgia, it's kept to remind me of what I was doing at that stage in my education,
+                      but it has now been replaced by a small node.js app.
+                    </p>
+                    <p>The same goes for the front-end. Is it accessible? No. Does it use modules? No, 2015 remember.
+                    Does it look outdated? Surprisingly, not that much?!</p>
+                    <p><a href="https://ctrlaltdelrue.be/boekmap">Boekmap</a></p>
+                  </li>
                 </ul>
               </article>
             </div>
