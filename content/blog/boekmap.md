@@ -23,7 +23,7 @@ and every year I'm reminded of how much I actually liked doing this kind of thin
 I've spent a weekend cleaning up old hard drives, and I found it!  
 Amid old Illustrator files, lab exercises, and class notes, there it was: _My precious_ **Boekmap**.
 
-In 2015, I was a second-year student without any money but with a lot of imagination, so 
+In 2015, I was a student without any money but with a lot of imagination, so 
 **Boekmap** started with a simple thought: what if you could explore a place 
 by discovering fiction set in that city, region, or country. 
 A way to travel somewhere without actually going there.
@@ -40,7 +40,7 @@ I just sat there and watched as it _violated_ something in which I once poured m
 
 That being said, the result is functioning and retained much of my original project.  
 Is it accessible? No. Does it use modules? No, 2015 remember. Does it look outdated? Maybe a little. But 
-I can always have claude throw in some purple gradients and useless hover effects if that's your thing.
+I can always have Claude throw in some purple gradients and useless hover effects if that's your thing.
 
 Put the kettle on, place yourself in your most comfy chair, and wrap yourself in the ugliest and snuggest blanket
 you can find. **And explore the world!**
