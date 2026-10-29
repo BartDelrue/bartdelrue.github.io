@@ -25,7 +25,7 @@ export default defineEventHandler(async (event) => {
     ...posts.map(post => `
     <url>
         <loc>${absolute(post.path)}</loc>
-        <lastmod>${new Date(post.updated ?? post.date).toISOString().slice(0, 10)}</lastmod>
+        <lastmod>${parsePostDate(post.updated ?? post.date).toISOString().slice(0, 10)}</lastmod>
         <priority>0.7</priority>
     </url>`),
   ].join('')

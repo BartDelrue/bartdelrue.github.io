@@ -4,10 +4,10 @@ const props = defineProps<{
   prefix?: string
 }>()
 
-const iso = computed(() => new Date(props.date).toISOString().slice(0, 10))
+const iso = computed(() => parsePostDate(props.date).toISOString().slice(0, 10))
 
 const label = computed(() =>
-  new Date(props.date).toLocaleDateString('en-GB', {
+  parsePostDate(props.date).toLocaleDateString('en-GB', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
