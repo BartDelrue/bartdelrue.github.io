@@ -1,7 +1,7 @@
 ---
 title: Boekmap
 description: A trip down memory lane to a student project from 2015. Boekmap combined open data from the Flemish libraries and a bit of imagination to help you discover fiction set in places you might never visit.
-date: 2026-10-29
+date: 2026-10-29T17:25:00+01:00
 guid: https://ctrlaltderlue.be/blog#Boekmap
 feedDescription: A trip down memory lane to a student project from 2015. Boekmap combined open data from the Flemish libraries and a bit of imagination to help you discover fiction set in places you might never visit.
 tags:
