@@ -46,7 +46,7 @@ export default defineEventHandler(async (event) => {
       link: absolute(post.path),
       guid: post.guid ?? absolute(post.path),
       description: post.feedDescription ?? escapeXml(post.description),
-      date: String(post.date),
+      date: `${post.date.replace(' ', 'T')}Z`,
     })),
     ...extraItems,
   ]
